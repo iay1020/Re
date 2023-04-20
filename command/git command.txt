@@ -24,6 +24,9 @@ git reset HEAD
 git reset HEAD fileName		인덱스에 반영된 모든 내용이 취소
 
 git log -n 1			최신 커밋 확인
+git reset --hard 커밋		로그에 나와 있는 커밋으로 되돌린다. 
+git reflog				log보다 압축적으로 로그 확인 가능
+git reset HEAD@{index}		reflog를 이용한 되돌리기
 
 
 
