@@ -1,0 +1,18 @@
+git init			
+git clone url			해당 위치에 저장소를 클론한다.
+
+ls				현재 위치 파일 목록 출력
+cd path				해당 작업 디렉터리로 이동 (공백이 있다면 " "으로 문자열로 만들어서 할 것)
+mkdir dirName			새 디렉터리 생성
+touch fileName			파일 생성 또는 파일의 접근 시간과 수정 시간을 변경
+touch -c fileName			파일 생성 방지 옵션 -c 
+stat fileName			파일 상태 확인
+touch fileName -a			aTime(접근시간) 변경
+touch fileName -m			mTime(수정시간) qusrud
+touch -d setTime fileName		dTime 파일 시간을 직접 지정
+	
+git status				저장소 상태 확인
+git log				커밋 로그 확인
+
+
+
